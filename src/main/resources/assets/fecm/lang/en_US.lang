@@ -1,0 +1,18 @@
+item.reinforcedStick.name=Reinforced Stick
+item.reinforcedLeatherSquare.name=Reinforced Leather Square
+item.reinforcedLeatherWing.name=Reinforced Leather Wing
+item.hardenedLeather.name=Hardened Leather
+item.diamondReinforcedStick.name=Diamond Reinforced Stick
+item.diamondReinforcedHardLeatherSquare.name=Diamond Reinforced Hard Leather Square
+item.woodenElytra.name=Wooden Elytra (W.I.P)
+item.diamondReinforcedWing.name=Diamond Reinforced Wing
+item.leatherHarness.name=Leather Harness
+item.diamondHarness.name=Diamond Hard Leather Harness
+item.endStoneStick.name=End Stone Stick
+item.enderInfusedLeather.name=Ender Infused Leather
+item.enderInfusedLeatherSquare.name=Ender Infused Leather Square
+item.enderInfusedWing.name=Ender Infused Wing
+item.enderInfusedHarness.name=Ender Infused Harness
+item.enderPearlDust.name=Ender Pearl Dust
+
+itemGroup.tabElytraCrafting=Elytra Crafting
