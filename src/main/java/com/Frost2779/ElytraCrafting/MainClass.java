@@ -3,9 +3,9 @@ package com.Frost2779.ElytraCrafting;
 import java.io.File;
 
 import com.Frost2779.ElytraCrafting.Handlers.ConfigHandler;
+import com.Frost2779.ElytraCrafting.Init.ModCrafting;
+import com.Frost2779.ElytraCrafting.Init.ModItems;
 import com.Frost2779.ElytraCrafting.Proxy.CommonProxy;
-import com.Frost2779.ElytraCrafting.init.ModCrafting;
-import com.Frost2779.ElytraCrafting.init.ModItems;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;

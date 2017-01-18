@@ -1,21 +1,18 @@
-package com.Frost2779.ElytraCrafting.init;
+package com.Frost2779.ElytraCrafting.Init;
 
-import com.Frost2779.ElytraCrafting.Refrence;
-import com.Frost2779.ElytraCrafting.items.ItemDiamondHarness;
-import com.Frost2779.ElytraCrafting.items.ItemDiamondReinforcedHardLeatherSquare;
-import com.Frost2779.ElytraCrafting.items.ItemDiamondReinforcedStick;
-import com.Frost2779.ElytraCrafting.items.ItemDiamondReinforcedWing;
-import com.Frost2779.ElytraCrafting.items.ItemEnderInfusedHarness;
-import com.Frost2779.ElytraCrafting.items.ItemEnderInfusedLeather;
-import com.Frost2779.ElytraCrafting.items.ItemEnderInfusedLeatherSquare;
-import com.Frost2779.ElytraCrafting.items.ItemEnderInfusedWing;
-import com.Frost2779.ElytraCrafting.items.ItemEnderPearlDust;
-import com.Frost2779.ElytraCrafting.items.ItemHardenedLeather;
-import com.Frost2779.ElytraCrafting.items.ItemLeatherHarness;
-import com.Frost2779.ElytraCrafting.items.ItemReinforcedLeatherSquare;
-import com.Frost2779.ElytraCrafting.items.ItemReinforcedLeatherWing;
-import com.Frost2779.ElytraCrafting.items.ItemReinforcedStick;
-import com.Frost2779.ElytraCrafting.items.ItemWoodenElytra;
+import com.Frost2779.ElytraCrafting.Items.ItemDiamondHarness;
+import com.Frost2779.ElytraCrafting.Items.ItemDiamondReinforcedHardLeatherSquare;
+import com.Frost2779.ElytraCrafting.Items.ItemDiamondReinforcedStick;
+import com.Frost2779.ElytraCrafting.Items.ItemDiamondReinforcedWing;
+import com.Frost2779.ElytraCrafting.Items.ItemEnderInfusedHarness;
+import com.Frost2779.ElytraCrafting.Items.ItemEnderInfusedLeather;
+import com.Frost2779.ElytraCrafting.Items.ItemEnderInfusedLeatherSquare;
+import com.Frost2779.ElytraCrafting.Items.ItemEnderInfusedWing;
+import com.Frost2779.ElytraCrafting.Items.ItemEnderPearlDust;
+import com.Frost2779.ElytraCrafting.Items.ItemHardenedLeather;
+import com.Frost2779.ElytraCrafting.Items.ItemLeatherHarness;
+import com.Frost2779.ElytraCrafting.Items.ItemReinforcedLeatherSquare;
+import com.Frost2779.ElytraCrafting.Items.ItemReinforcedStick;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -26,9 +23,7 @@ public class ModItems {
 	
 	public static Item reinforcedStick;
 	public static Item reinforcedLeatherSquare;
-	public static Item reinforcedLeatherWing;
 	public static Item leatherHarness;
-	public static Item woodenElytra;
 	
 	public static Item hardenedLeather;
 	public static Item diamondReinforcedStick;
@@ -42,13 +37,10 @@ public class ModItems {
 	public static Item enderInfusedHarness;
 	
 	public static Item enderPearlDust;
-	
 	public static void init(){
 		reinforcedStick = new ItemReinforcedStick();
 		reinforcedLeatherSquare = new ItemReinforcedLeatherSquare();
-		reinforcedLeatherWing = new ItemReinforcedLeatherWing();
 		leatherHarness = new ItemLeatherHarness();
-		woodenElytra = new ItemWoodenElytra();
 		
 		hardenedLeather = new ItemHardenedLeather();
 		diamondReinforcedStick = new ItemDiamondReinforcedStick();
@@ -68,9 +60,7 @@ public class ModItems {
 		
 		GameRegistry.register(reinforcedStick);
 		GameRegistry.register(reinforcedLeatherSquare);
-		GameRegistry.register(reinforcedLeatherWing);
 		GameRegistry.register(leatherHarness);
-		GameRegistry.register(woodenElytra);
 		
 		GameRegistry.register(hardenedLeather);
 		GameRegistry.register(diamondReinforcedStick);
@@ -90,9 +80,7 @@ public class ModItems {
 		
 		registerRender(reinforcedStick);
 		registerRender(reinforcedLeatherSquare);
-		registerRender(reinforcedLeatherWing);
 		registerRender(leatherHarness);
-		registerRender(woodenElytra);
 		
 		registerRender(hardenedLeather);
 		registerRender(diamondReinforcedStick);

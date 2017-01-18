@@ -1,4 +1,4 @@
-package com.Frost2779.ElytraCrafting.items;
+package com.Frost2779.ElytraCrafting.Items;
 
 import com.Frost2779.ElytraCrafting.ElytraCraftingTab;
 import com.Frost2779.ElytraCrafting.MainClass;
