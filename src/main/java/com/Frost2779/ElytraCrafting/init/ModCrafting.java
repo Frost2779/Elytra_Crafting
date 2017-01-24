@@ -22,7 +22,6 @@ public class ModCrafting {
 			
 			GameRegistry.addShapelessRecipe(new ItemStack(ModItems.enderInfusedLeather), new Object[]{ModItems.hardenedLeather, Items.CHORUS_FRUIT_POPPED, ModItems.enderPearlDust});
 			GameRegistry.addShapelessRecipe(new ItemStack(ModItems.enderPearlDust, 4), new Object[]{Items.ENDER_PEARL});
-			
 		}else{
 			GameRegistry.addShapedRecipe(new ItemStack(ModItems.reinforcedStick, 4), " I ", "ISI", " I ", 'I', Items.IRON_INGOT, 'S', Items.STICK);
 			GameRegistry.addShapedRecipe(new ItemStack(ModItems.reinforcedLeatherSquare, 3), "ISI", "SLS", "ISI", 'I', Items.IRON_INGOT, 'S', ModItems.reinforcedStick, 'L', Items.LEATHER);
