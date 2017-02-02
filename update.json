@@ -1,0 +1,18 @@
+{
+  "homepage": "https://minecraft.curseforge.com/projects/elytra-crafting-mod",
+  "promos": {
+    "1.11-latest": "0.4.3",
+    "1.11-revommended": "0.4.3",
+    "1.11.2-latest": "0.4.3",
+    "1.11.2-recommended": "0.4.3"
+  },
+  "1.11":{
+  "0.4.3": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog",
+  "0.4.2": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog"
+  },
+  "1.11.2": {
+    "0.4.3": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog",
+    "0.4.2": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog",
+    "0.4.1": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog"
+  }
+}
