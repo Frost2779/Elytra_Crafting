@@ -1,6 +1,6 @@
 package com.Frost2779.ElytraCrafting.Init;
 
-import com.Frost2779.ElytraCrafting.Handlers.ConfigHandler;
+import com.Frost2779.ElytraCrafting.Util.ConfigHandler;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;

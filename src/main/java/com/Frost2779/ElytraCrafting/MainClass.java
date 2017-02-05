@@ -2,10 +2,11 @@ package com.Frost2779.ElytraCrafting;
 
 import java.io.File;
 
-import com.Frost2779.ElytraCrafting.Handlers.ConfigHandler;
 import com.Frost2779.ElytraCrafting.Init.ModCrafting;
 import com.Frost2779.ElytraCrafting.Init.ModItems;
 import com.Frost2779.ElytraCrafting.Proxy.CommonProxy;
+import com.Frost2779.ElytraCrafting.Util.ConfigHandler;
+import com.Frost2779.ElytraCrafting.Util.LogHelper;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
@@ -18,7 +19,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Refrence.MOD_ID, name = Refrence.NAME, version = Refrence.VERSION, acceptedMinecraftVersions = Refrence.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/Frost2779/Mod-Update-Version/master/Update")
+@Mod(modid = Refrence.MOD_ID, name = Refrence.NAME, version = Refrence.VERSION, acceptedMinecraftVersions = Refrence.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/Frost2779/Elytra-Crafting-Mod-Github/master/update.json")
 public class MainClass {
 	
 	@Instance
@@ -33,10 +34,11 @@ public class MainClass {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
 	 
-		 ConfigHandler.init(new File(event.getModConfigurationDirectory(), "Elytra Crafting" + ".cfg"));
+		ConfigHandler.init(new File(event.getModConfigurationDirectory(), "Elytra Crafting" + ".cfg"));
 		
 		ModItems.init();
 		ModItems.register();
+		LogHelper.logInfo("Mod Items initialized");
 	}
 	
 	@EventHandler
@@ -44,6 +46,7 @@ public class MainClass {
 	
 		proxy.init();
 		ModCrafting.register();
+		LogHelper.logInfo("Crafting recipes initialized.");
 	}
 	
 	@EventHandler

@@ -3,7 +3,7 @@
   "modid": "fecm",
   "name": "Elytra Crafting Recipe Mod",
   "description": "Adds a crafting recipe for the Elytra.",
-  "version": "0.4.3",
+  "version": "1.0.0",
   "mcversion": "${mcversion}",
   "url": "https://minecraft.curseforge.com/projects/elytra-crafting-mod",
   "updateUrl": "",
