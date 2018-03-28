@@ -1,0 +1,6 @@
+{
+  "conditions": {
+    "preEndItem":"com.Frost2779.ElytraCrafting.util.handlers.CraftingConfigConditionHandler",
+    "postEndItem":"com.Frost2779.ElytraCrafting.util.handlers.InverseCCCH"
+  }
+}

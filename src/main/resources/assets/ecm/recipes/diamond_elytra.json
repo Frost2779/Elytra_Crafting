@@ -1,0 +1,30 @@
+{
+  "conditions":[
+    {
+      "type":"ecm:preEndItem"
+    }
+  ],
+  "result":{
+    "item":"minecraft:elytra"
+  },
+  "pattern":[
+    " E ",
+    "SHS",
+    "W W"
+  ],
+  "type":"forge:ore_shaped",
+  "key":{
+    "E":{
+      "item":"minecraft:emerald_block"
+    },
+    "S":{
+      "item":"ecm:diamond_reinforced_stick"
+    },
+    "H":{
+      "item":"ecm:diamond_harness"
+    },
+    "W":{
+      "item":"ecm:diamond_reinforced_wing"
+    }
+  }
+}

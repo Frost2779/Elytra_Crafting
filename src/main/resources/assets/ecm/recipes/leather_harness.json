@@ -1,0 +1,24 @@
+{
+  "conditions":[
+    {
+      "type":"ecm:preEndItem"
+    }
+  ],
+  "result":{
+    "item":"ecm:leather_harness"
+  },
+  "pattern":[
+    "SLS",
+    "L L",
+    "SLS"
+  ],
+  "type":"forge:ore_shaped",
+  "key":{
+    "S":{
+      "item":"ecm:reinforced_stick"
+    },
+    "L":{
+      "item":"minecraft:leather"
+    }
+  }
+}

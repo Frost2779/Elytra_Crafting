@@ -1,8 +1,7 @@
-package com.Frost2779.ElytraCrafting.Proxy;
+package com.Frost2779.ElytraCrafting.proxy;
 
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraft.item.Item;
 
-public interface CommonProxy {
-	
-	public void init();
+public class CommonProxy {
+    public void registerItemRenderer(Item item, int meta, String id){ }
 }

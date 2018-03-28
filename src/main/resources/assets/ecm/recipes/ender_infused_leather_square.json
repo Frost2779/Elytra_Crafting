@@ -1,0 +1,28 @@
+{
+  "conditions":[
+    {
+      "type":"ecm:postEndItem"
+    }
+  ],
+  "result":{
+    "item":"ecm:ender_infused_leather_square",
+    "count":3
+  },
+  "pattern":[
+    "ISI",
+    "SLS",
+    "ISI"
+  ],
+  "type":"forge:ore_shaped",
+  "key":{
+    "I":{
+      "item":"minecraft:iron_ingot"
+    },
+    "S":{
+      "item":"minecraft:end_rod"
+    },
+    "L":{
+      "item":"ecm:ender_infused_leather"
+    }
+  }
+}

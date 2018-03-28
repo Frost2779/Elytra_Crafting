@@ -1,0 +1,22 @@
+{
+  "conditions":[
+    {
+      "type":"ecm:postEndItem"
+    }
+  ],
+  "result":{
+    "item":"ecm:ender_infused_leather"
+  },
+  "type":"forge:ore_shapeless",
+  "ingredients":[
+    {
+      "item":"ecm:hardened_leather"
+    },
+    {
+      "item":"ecm:ender_pearl_dust"
+    },
+    {
+      "item":"minecraft:chorus_fruit"
+    }
+  ]
+}

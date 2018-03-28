@@ -1,0 +1,27 @@
+{
+  "conditions":[
+    {
+      "type":"ecm:postEndItem"
+    }
+  ],
+  "result":{
+    "item":"minecraft:elytra"
+  },
+  "pattern":[
+    "   ",
+    "SHS",
+    "W W"
+  ],
+  "type":"forge:ore_shaped",
+  "key":{
+    "S":{
+      "item":"minecraft:end_rod"
+    },
+    "H":{
+      "item":"ecm:ender_infused_harness"
+    },
+    "W":{
+      "item":"ecm:ender_infused_wing"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "conditions":[
+    {
+      "type":"ecm:preEndItem"
+    }
+  ],
+  "result":{
+    "item":"ecm:reinforced_stick",
+    "count":2
+  },
+  "pattern":[
+    " I ",
+    "ISI",
+    " I "
+  ],
+  "type":"forge:ore_shaped",
+  "key":{
+    "I":{
+      "item":"minecraft:iron_ingot"
+    },
+    "S":{
+      "item":"minecraft:stick"
+    }
+  }
+}

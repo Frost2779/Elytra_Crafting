@@ -1,13 +1,12 @@
-package com.Frost2779.ElytraCrafting.Proxy;
+package com.Frost2779.ElytraCrafting.proxy;
 
-import com.Frost2779.ElytraCrafting.Init.ModItems;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.client.model.ModelLoader;
 
+public class ClientProxy extends CommonProxy{
 
-public class ClientProxy implements CommonProxy{
-
-	@Override
-	public void init() {
-		
-		ModItems.registerRenders();
-	}
+    public void registerItemRenderer(Item item, int meta, String id){
+        ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), id));
+    }
 }

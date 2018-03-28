@@ -1,0 +1,27 @@
+{
+  "conditions":[
+    {
+      "type":"ecm:preEndItem"
+    }
+  ],
+  "result":{
+    "item":"ecm:diamond_harness"
+  },
+  "pattern":[
+    "SLS",
+    "LTL",
+    "SLS"
+  ],
+  "type":"forge:ore_shaped",
+  "key":{
+    "l":{
+      "item":"ecm:hardened_leather"
+    },
+    "S":{
+      "item":"ecm:diamond_reinforced_stick"
+    },
+    "T":{
+      "item":"ecm:leather_harness"
+    }
+  }
+}

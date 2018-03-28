@@ -1,0 +1,28 @@
+{
+  "conditions":[
+    {
+      "type":"ecm:preEndItem"
+    }
+  ],
+  "result":{
+    "item":"ecm:diamond_reinforced_hard_leather_square",
+    "count":2
+  },
+  "pattern":[
+    "DSD",
+    "SHS",
+    "DSD"
+  ],
+  "type":"forge:ore_shaped",
+  "key":{
+    "D":{
+      "item":"minecraft:diamond"
+    },
+    "S":{
+      "item":"ecm:diamond_reinforced_stick"
+    },
+    "H":{
+      "item":"ecm:reinforced_leather_square"
+    }
+  }
+}
