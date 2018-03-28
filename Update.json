@@ -4,7 +4,9 @@
     "1.11-latest": "1.0.0",
     "1.11-revommended": "1.0.0",
     "1.11.2-latest": "1.0.0",
-    "1.11.2-recommended": "1.0.0"
+    "1.11.2-recommended": "1.0.0",
+    "1.12.2-latest":"2.0.0",
+    "1.12.2-recommended":"2.0.0"
   },
   "1.11":{
   "1.0.0": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog",
@@ -16,5 +18,8 @@
     "0.4.3": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog",
     "0.4.2": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog",
     "0.4.1": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog"
+  },
+  "1.12.2": {
+    "2.0.0": "Changelog: https://github.com/Frost2779/Elytra-Crafting-Mod-Github/wiki/Changelog"
   }
 }
