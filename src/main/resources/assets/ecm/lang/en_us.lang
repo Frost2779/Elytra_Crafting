@@ -17,3 +17,6 @@ item.ender_pearl_dust.name=Ender Pearl Dust
 // WIP Items
 item.wooden_elytra.name=Wooden Elytra(WIP)
 item.diamond_elytra.name=Diamond Elytra(WIP)
+
+// Tab
+itemGroup.tabElytraCrafting=Elytra Crafting

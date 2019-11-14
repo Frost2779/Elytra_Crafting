@@ -17,3 +17,6 @@ item.ender_pearl_dust.name=末影珍珠粉
 // WIP Items
 item.wooden_elytra.name=木鞘翅（未完成）
 item.diamond_elytra.name=钻石鞘翅（未完成）
+
+// Tab
+itemGroup.tabElytraCrafting=

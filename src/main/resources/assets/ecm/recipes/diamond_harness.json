@@ -9,19 +9,16 @@
   },
   "pattern":[
     "SLS",
-    "LTL",
+    "L L",
     "SLS"
   ],
   "type":"forge:ore_shaped",
   "key":{
-    "l":{
-      "item":"ecm:hardened_leather"
+    "L":{
+      "item":"ecm:diamond_reinforced_hard_leather_square"
     },
     "S":{
       "item":"ecm:diamond_reinforced_stick"
-    },
-    "T":{
-      "item":"ecm:leather_harness"
     }
   }
 }
