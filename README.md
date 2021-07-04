@@ -1,2 +1,5 @@
-# Elytra Crafting
-This mod has been made obsolete since the introduction of resource/data packs. As such, upkeep of this mod is strictly maintenance only, and will only address bugs associated with release 2.0.2.
+# Netherite Horse Armor (Fabric)
+A simple mod for fabric that adds netherite horse armor.
+
+# Development
+To develop off this mod, simply clone the repository and follow the fabric setup instruction [here](https://fabricmc.net/wiki/tutorial:setup).
