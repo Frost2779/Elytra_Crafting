@@ -30,10 +30,11 @@
     "elytracrafting.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.16.x",
-    "cloth-config2": "4.11.x",
-    "modmenu": "1.16.x"
+    "minecraft": "1.17.x",
+    "java": ">=16",
+    "cloth-config2": "5.0.x",
+    "modmenu": "2.0.x"
   }
 }
