@@ -9,7 +9,7 @@ public class ElytraCraftingConfig implements ConfigData {
     public enum Flags { PreEnd, End, Both }
 
     @ConfigEntry.Category("Crafting Settings")
-    @ConfigEntry.Gui.Tooltip(count = 3)
+    @ConfigEntry.Gui.Tooltip(count = 6)
     public Flags craftingMode = Flags.End;
 
     public boolean isPreEndOrBoth() {

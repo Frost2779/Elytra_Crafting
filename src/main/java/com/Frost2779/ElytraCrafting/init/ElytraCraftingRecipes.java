@@ -1,6 +1,7 @@
 package com.frost2779.elytracrafting.init;
 
 import com.frost2779.elytracrafting.ElytraCrafting;
+import com.frost2779.elytracrafting.data.CraftingRecipe;
 import com.google.common.collect.Lists;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

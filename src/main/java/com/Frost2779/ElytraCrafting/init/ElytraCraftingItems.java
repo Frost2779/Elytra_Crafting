@@ -1,7 +1,7 @@
 package com.frost2779.elytracrafting.init;
 
 import com.frost2779.elytracrafting.ElytraCrafting;
-import com.terraformersmc.modmenu.util.mod.Mod;
+import com.frost2779.elytracrafting.data.ModItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;

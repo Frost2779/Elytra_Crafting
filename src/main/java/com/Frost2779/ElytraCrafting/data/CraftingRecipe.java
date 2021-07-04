@@ -1,4 +1,4 @@
-package com.frost2779.elytracrafting.init;
+package com.frost2779.elytracrafting.data;
 
 import com.google.gson.JsonObject;
 import net.minecraft.util.Identifier;
