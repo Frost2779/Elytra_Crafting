@@ -1,7 +1,20 @@
 {
-  "tab.elytraCrafting.tabgeneral": "Elytra Crafting",
+  "itemGroup.elytraCrafting.tabgeneral": "Elytra Crafting",
   "text.autoconfig.elytracrafting.title": "Elytra Crafting",
-  "text.autoconfig.elytracrafting.option.enablePreEndMode": "Enable Pre-End Mode",
-  "text.autoconfig.elytracrafting.option.enablePreEndMode.@Tooltip": "Enables recipes that allow you to craft an elytra with materials not requiring the end.",
-  "item.elytracrafting.reinforced_stick": "Reinforced Stick"
+  "text.autoconfig.elytracrafting.option.craftingMode": "Crafting Recipe Mode",
+  "text.autoconfig.elytracrafting.option.craftingMode.@Tooltip[0]": "[PreEnd] Enables items and crafting recipes to craft an elytra without end materials.",
+  "text.autoconfig.elytracrafting.option.craftingMode.@Tooltip[1]": "[End] Enables items and crafting recipes to craft an elytra with exclusively end materials.",
+  "text.autoconfig.elytracrafting.option.craftingMode.@Tooltip[2]": "[Both] Enables items and crafting recipes to craft an elytra both with an without end materials.",
+  "item.elytracrafting.reinforced_stick": "Reinforced Stick",
+  "item.elytracrafting.reinforced_leather_square": "Reinforced Leather Square",
+  "item.elytracrafting.hardened_leather": "Hardened Leather",
+  "item.elytracrafting.diamond_reinforced_stick": "Diamond Reinforced Stick",
+  "item.elytracrafting.diamond_reinforced_hard_leather_square": "Reinforced Hard Leather Square",
+  "item.elytracrafting.diamond_reinforced_wing": "Diamond Reinforced Wing",
+  "item.elytracrafting.diamond_harness": "Diamong Harness",
+  "item.elytracrafting.ender_infused_leather": "Enter Infused Leather",
+  "item.elytracrafting.ender_infused_leather_square": "Ender Infused Leather Square",
+  "item.elytracrafting.ender_infused_wing": "Ender Infused Wing",
+  "item.elytracrafting.ender_infused_harness": "Enter Infused Harness",
+  "item.elytracrafting.ender_pearl_dust": "Ender Pearl Dust"
 }

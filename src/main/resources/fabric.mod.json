@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/elytra-crafting-mod",
-    "sources": "https://github.com/michael-somdecerff/Elytra_Crafting/tree/Fabric-1.17"
+    "sources": "https://github.com/michael-somdecerff/Elytra_Crafting",
+    "issues": "https://github.com/michael-somdecerff/Elytra_Crafting/issues"
   },
 
   "license": "MIT",
@@ -26,7 +27,7 @@
     ]
   },
   "mixins": [
-
+    "elytracrafting.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.7.4",

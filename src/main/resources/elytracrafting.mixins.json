@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.frost2779.elytracrafting.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "RecipeManagerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -14,7 +14,7 @@ public class ElytraCrafting implements ModInitializer {
     public static final String MOD_ID = "elytracrafting";
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
             new Identifier("elytracrafting", "tabgeneral"),
-            () -> new ItemStack(ElytraCraftingItems.ENDER_PEARL_DUST)
+            () -> new ItemStack(ElytraCraftingItems.ENDER_PEARL_DUST.getItem())
     );
     public static ElytraCraftingConfig ecmConfig;
 
